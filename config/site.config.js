@@ -14,14 +14,14 @@ module.exports = {
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "Takuron's OneDrive",
+  title: "Takuron's OneDrive Index",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
   baseDirectory: process.env.BASE_DIRECTORY || '/',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
-  maxItems: 100,
+  maxItems: 20,
 
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
@@ -50,7 +50,7 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'hhttps://github.com/lyc8503/onedrive-cf-index-ng',
+      link: 'https://github.com/lyc8503/onedrive-cf-index-ng',
     },
   ],
 
